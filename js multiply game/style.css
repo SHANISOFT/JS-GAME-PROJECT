@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    background: yellow;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    background: white;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form .score{
+    margin-left: 260px;
+    text-align: right;
+    color: green;
+}
+#question{
+    font-size: 28px;
+}
+
+.form .input {
+    border: solid 4px green;
+    width: 328px;
+    height: 35px;
+    margin: 10px 0px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.input::placeholder{
+    color: lightgray;
+    font-family: cursive;
+}
+
+.form .input:hover{
+    border-color: green;
+}
+
+
+.btn {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    /* font-weight: 400; */
+    width: 100%;
+    border-radius: 5px;
+    /* height: 30px; */
+    background: green;
+    color: white;
+    margin: 15px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    /* margin: 10px 0px; */
+    cursor: pointer;
+}
+.btn:hover{
+    filter:brightness(0.9)
+}
